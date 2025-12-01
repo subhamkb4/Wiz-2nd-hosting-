@@ -21,12 +21,12 @@ services:
       - key: PORT
         value: 8080
       - key: TOKEN
-        value: "7974520296:AAFqN007W5k3g2MLu7KrRka7bj5nuDNxpA0"
+        value: "8479222213:AAFMM_L2sRGDZ73rnrYHof9e56ah9UjAm3M"
       - key: OWNER_ID
-        value: "6606762486"
+        value: "7896890222"
       - key: ADMIN_ID
-        value: "6606762486"
+        value: "7896890222"
       - key: YOUR_USERNAME
-        value: "@nik_editz"
+        value: "@BLAZE_X_007"
       - key: UPDATE_CHANNEL
-        value: "@thecardernik"
+        value: "@wiz_x_chk"
