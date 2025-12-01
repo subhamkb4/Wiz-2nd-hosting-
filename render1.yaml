@@ -1,0 +1,27 @@
+services:
+  - type: web
+    name: telegram-bot-host
+    env: python
+    plan: free
+    branch: main
+    buildCommand: |
+      pip install -r requirements.txt
+    startCommand: |
+      python main.py
+    envVars:
+      - key: PORT
+        value: 8080
+      - key: TOKEN
+        value: "7974520296:AAFqN007W5k3g2MLu7KrRka7bj5nuDNxpA0"
+      - key: OWNER_ID
+        value: "6606762486"
+      - key: ADMIN_ID
+        value: "6606762486"
+      - key: YOUR_USERNAME
+        value: "@nik_editz"
+      - key: UPDATE_CHANNEL
+        value: "@thecardernik"
+    disk:
+      name: uploads
+      mountPath: /opt/render/project/src/upload_bots
+      sizeGB: 1
